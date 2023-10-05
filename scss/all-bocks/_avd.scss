@@ -1,0 +1,35 @@
+.avd {
+    margin-left: 150px;
+
+    .container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 244px;
+    }
+
+    &__info {
+        margin-left: 125px;
+    }
+
+    &__heading {
+        color: #333D4B;
+        font-family: "Fraunces";
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 48px;
+    }
+
+    &__text {
+        width: 540px;
+        color: #333D4B;
+        font-family: "Barlow";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 32px;
+    }
+
+    &__img {
+        border-radius: 8px;
+    }
+}
